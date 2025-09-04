@@ -1,4 +1,5 @@
 // pages/index.tsx - Main App Component
+"use client";
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import { 
